@@ -15,7 +15,7 @@ export default function Cart(){
         }else{
             setCartCount(cartCount+1);
             setProductStock(productStock-1);
-            setSubTotal(subTotal+84396);
+            setSubTotal(subTotal+499);
         }
     }
     //remove function to remove item from the cart and increase the stock value
@@ -26,7 +26,7 @@ export default function Cart(){
         }else{
             setCartCount(cartCount-1);
             setProductStock(productStock+1);
-            setSubTotal(subTotal-84396);
+            setSubTotal(subTotal-499);
         }
         
     }
